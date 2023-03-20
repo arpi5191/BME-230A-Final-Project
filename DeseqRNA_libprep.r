@@ -15,7 +15,7 @@ unique(metadata$libprep)
 
 colData <- DataFrame(libprep=factor(metadata$libprep))
 
-dds <- DESeqDataSetFromMatrix(ceiling(countsData), colData = colData, design=formula(~libprep)) #gets stuck here
+dds <- DESeqDataSetFromMatrix(ceiling(countsData), colData = colData, design=formula(~libprep))
 
 #contrast = c("strain", "C57BL/6T", "BALB/cT")
 contrast = c("libprep", "ribodepleted", "polyA")
