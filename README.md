@@ -1,4 +1,4 @@
-# Space Gene Expression Analysis
+# Space Mice Gene Expression Analysis
 
 Implements Principal Component Analysis (PCA) on a NASA dataset to identify the features contributing most significantly to the mice's gene expression. Performs differential gene expression analysis based on condition, library preparation, and strain features to uncover insights about mice in space compared to those on the ground.
 
